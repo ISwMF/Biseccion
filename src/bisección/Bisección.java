@@ -13,8 +13,8 @@ public class Bisección {
 
     //x^2 - 5x + 6
     public static void main(String[] args) {
-        Iterador It = new Iterador("x^2");
-        It.iterar(-1.9, 1.4);
+        Mostrador M = new Mostrador();
+        M.setVisible(true);
     }
 
 }
